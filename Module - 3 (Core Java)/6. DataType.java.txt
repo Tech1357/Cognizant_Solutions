@@ -1,0 +1,17 @@
+
+
+public class DataType
+{
+	public static void main(String[] args) {
+		int a=3;
+		float b=2f;
+		double c=8;
+		char s='h';
+		boolean t=true;
+		System.out.println("int value ="+a);
+		System.out.println("float value ="+b);
+		System.out.println("double value="+c);
+		System.out.println("char value="+s);
+		System.out.println("boolean value="+t);
+	}
+}

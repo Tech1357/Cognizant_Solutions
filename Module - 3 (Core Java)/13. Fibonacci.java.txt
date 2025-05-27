@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Fibonacci{
+
+    public static int fib(int n) {
+        if (n==1 || n==2){
+            return 1;
+        }
+        int a=1;
+        int b=1;
+        int i=3;
+        int c=0;
+        while(i<=n){
+            c=a+b;
+            a=b;
+            b=c;
+            i++;
+        }
+        return c;
+    }
+    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int res=fib(n);
+        System.out.println("Result of nth fibonacci number = "+res);
+    }
+}

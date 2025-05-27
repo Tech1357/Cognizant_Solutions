@@ -1,0 +1,13 @@
+
+
+public class TypeCast
+{
+	public static void main(String[] args) {
+		double d=9.78;
+		int i=(int)d;
+		System.out.println("double to int = "+i);
+		int a=3;
+		double b=(double)a;
+		System.out.println("int to double = "+b);
+	}
+}
